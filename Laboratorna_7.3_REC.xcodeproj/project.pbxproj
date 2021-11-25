@@ -12,9 +12,9 @@
 		18DC4378274FA49B00551C8D /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC4377274FA49B00551C8D /* Document.m */; };
 		18DC437A274FA49E00551C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DC4379274FA49E00551C8D /* Assets.xcassets */; };
 		18DC437D274FA49E00551C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DC437B274FA49E00551C8D /* Main.storyboard */; };
-		18DC4380274FA49E00551C8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC437F274FA49E00551C8D /* main.m */; };
 		18DC438B274FA49E00551C8D /* Laboratorna_7_3_RECTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC438A274FA49E00551C8D /* Laboratorna_7_3_RECTests.m */; };
 		18DC4396274FA49E00551C8D /* Laboratorna_7_3_RECUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC4395274FA49E00551C8D /* Laboratorna_7_3_RECUITests.m */; };
+		18DC43A5274FA4BF00551C8D /* Laba_REC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18DC43A3274FA4BF00551C8D /* Laba_REC.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		18DC4379274FA49E00551C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DC437C274FA49E00551C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18DC437E274FA49E00551C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18DC437F274FA49E00551C8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18DC4381274FA49E00551C8D /* Laboratorna_7_3_REC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Laboratorna_7_3_REC.entitlements; sourceTree = "<group>"; };
 		18DC4386274FA49E00551C8D /* Laboratorna_7.3_RECTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboratorna_7.3_RECTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DC438A274FA49E00551C8D /* Laboratorna_7_3_RECTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorna_7_3_RECTests.m; sourceTree = "<group>"; };
@@ -53,6 +52,8 @@
 		18DC4391274FA49E00551C8D /* Laboratorna_7.3_RECUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboratorna_7.3_RECUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DC4395274FA49E00551C8D /* Laboratorna_7_3_RECUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorna_7_3_RECUITests.m; sourceTree = "<group>"; };
 		18DC4397274FA49E00551C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DC43A3274FA4BF00551C8D /* Laba_REC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Laba_REC.cpp; sourceTree = "<group>"; };
+		18DC43A4274FA4BF00551C8D /* Laba_REC.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Laba_REC.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,8 @@
 		18DC4364274FA49B00551C8D = {
 			isa = PBXGroup;
 			children = (
+				18DC43A3274FA4BF00551C8D /* Laba_REC.cpp */,
+				18DC43A4274FA4BF00551C8D /* Laba_REC.hpp */,
 				18DC436F274FA49B00551C8D /* Laboratorna_7.3_REC */,
 				18DC4389274FA49E00551C8D /* Laboratorna_7.3_RECTests */,
 				18DC4394274FA49E00551C8D /* Laboratorna_7.3_RECUITests */,
@@ -112,7 +115,6 @@
 				18DC4379274FA49E00551C8D /* Assets.xcassets */,
 				18DC437B274FA49E00551C8D /* Main.storyboard */,
 				18DC437E274FA49E00551C8D /* Info.plist */,
-				18DC437F274FA49E00551C8D /* main.m */,
 				18DC4381274FA49E00551C8D /* Laboratorna_7_3_REC.entitlements */,
 			);
 			path = Laboratorna_7.3_REC;
@@ -266,7 +268,7 @@
 			files = (
 				18DC4378274FA49B00551C8D /* Document.m in Sources */,
 				18DC4375274FA49B00551C8D /* ViewController.m in Sources */,
-				18DC4380274FA49E00551C8D /* main.m in Sources */,
+				18DC43A5274FA4BF00551C8D /* Laba_REC.cpp in Sources */,
 				18DC4372274FA49B00551C8D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
